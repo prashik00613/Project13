@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -28,7 +29,7 @@ public class BaseGeneric {
 		}
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void OpenApp() {
 		driver.get("https://adminlm.onrender.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -5,8 +5,8 @@
   <parameter name="browsername" value="Firefox"></parameter>
     <classes>
     <class name="BaseCode.BaseGeneric"/>
-          <class name="BaseCode.OpenApp"/>
-    <class name="BaseCode.logintest1"/>
+    <class name="BaseCode.OpenApp"/>
+ 
 
      
     </classes>
