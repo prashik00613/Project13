@@ -6,7 +6,7 @@
     <classes>
     <class name="BaseCode.BaseGeneric"/>
     <class name="BaseCode.OpenApp"/>
- 
+ 	<class name="BaseCode.LoginTest1"></class>
 
      
     </classes>
