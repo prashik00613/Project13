@@ -12,12 +12,12 @@ import org.openqa.selenium.WebElement;
 		
 		public Add_Category(WebDriver driver) {
 			addCategory=driver.findElement(By.xpath("//a[@href='/dashboard/addcategory']"));
-			//SelectChkBox=driver.findElement(By.xpath("(//input[@name='category'])[1]"));
+			SelectChkBox=driver.findElement(By.xpath("(//input[@name='category'])[1]"));
 		}
 		public void clikonAdd_category() {
 			addCategory.click();
 		}
-		
+	
 		public void EnterCategoryName(String un) {
 			SelectChkBox.sendKeys(un);
 		}

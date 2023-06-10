@@ -27,5 +27,9 @@ public class logintest1
 	public void clkOnLoginBtn() {
 		loginBtn.click();
 	}
+	public void setValue(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

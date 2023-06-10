@@ -28,7 +28,7 @@ public class TestLoginPage {
 		Thread.sleep(6000);
 		Add_Category c1= new Add_Category(driver);
 		c1.clikonAdd_category();
-		//c1.EnterCategoryName("abcd");
+		c1.EnterCategoryName("abcd");
 		
 		
 	}
