@@ -12,15 +12,20 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class BaseGeneric {
-	public WebDriver driver;
+	WebDriver driver;
+
 	@Parameters("browsername")
 	@BeforeClass
+
 	public void openBrowser(String browsername) {
 		if (browsername.equals("Firefox")) {
 			driver= new FirefoxDriver();
+			
 			
 		}else if (browsername.equals("Chrome")) {
 			driver=new ChromeDriver();
@@ -34,6 +39,7 @@ public class BaseGeneric {
 	public void OpenApp() {
 		driver.get("https://adminlm.onrender.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	
 	}
 		@AfterMethod
 	public void testMethodExecutionResult(ITestResult result) {

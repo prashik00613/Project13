@@ -1,14 +1,21 @@
 package BaseCode;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import LoginPage.logintest1;
-
-public class OpenApp extends BaseGeneric{
+public class OpenApp extends BaseGeneric
+{
 	@Test
 	  public void loginApp() {
-		LoginTest1 t1=new LoginTest1(driver);
-			t1.setValue("admin07","test1234");
-			t1.clkOnLoginBtn();
+		driver.findElement(By.xpath("//input[@placeholder='Enter Username/Email']")).sendKeys("admin07");
+		driver.findElement(By.xpath("//input[@placeholder='Enter Password']")).sendKeys("test1234");
+		driver.findElement(By.xpath("//button[text()='LOGIN']")).click();
+		Catgeory c= new Catgeory(driver);
+		c.clickon();
+		
 			}
-}
+		}
+	
+
+

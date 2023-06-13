@@ -4,13 +4,16 @@
   <test thread-count="5" name="SuitTest1(failed)">
     <parameter name="browsername" value="Firefox"/>
     <classes>
-      <class name="BaseCode.OpenApp">
+      <class name="BaseCode.Catgeory">
         <methods>
+          <include name="Category"/>
           <include name="openBrowser"/>
           <include name="loginApp"/>
+          <include name="testMethodExecutionResult"/>
+          <include name="clickon"/>
           <include name="OpenApp"/>
         </methods>
-      </class> <!-- BaseCode.OpenApp -->
+      </class> <!-- BaseCode.Catgeory -->
     </classes>
   </test> <!-- SuitTest1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
