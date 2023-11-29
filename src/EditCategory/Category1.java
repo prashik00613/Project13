@@ -16,7 +16,6 @@ public class Category1 extends BaseGeneric {
 	WebDriver driver;
    private WebElement category;
  
-   
   
    public Category1(WebDriver driver) throws InterruptedException {
 	   this.driver=driver;

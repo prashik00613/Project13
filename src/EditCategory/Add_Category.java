@@ -3,8 +3,11 @@ package EditCategory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
-	public class Add_Category {
+import BaseCode.BaseGeneric;
+
+	public class Add_Category extends BaseGeneric{
 		private WebElement addCategory;
 		private WebElement SelectChkBox;
 	

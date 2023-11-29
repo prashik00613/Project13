@@ -17,18 +17,18 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class BaseGeneric {
-	WebDriver driver;
+	protected WebDriver driver;
 
 	@Parameters("browsername")
 	@BeforeClass
 
 	public void openBrowser(String browsername) {
-		if (browsername.equals("Firefox")) {
-			driver= new FirefoxDriver();
+		if (browsername.equals("Chrome")) {
+			driver= new ChromeDriver(); 
 			
 			
-		}else if (browsername.equals("Chrome")) {
-			driver=new ChromeDriver();
+		}else if (browsername.equals("Firefox")) {
+			driver=new FirefoxDriver();
 			
 		}else {
 			driver= new EdgeDriver();

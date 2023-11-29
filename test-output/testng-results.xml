@@ -5,12 +5,12 @@
       <![CDATA[loginAppexecution is passed,true]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-13T14:19:17 IST" name="Suite" finished-at="2023-06-13T14:19:23 IST" duration-ms="5860">
+  <suite started-at="2023-06-19T16:09:26 IST" name="Suite" finished-at="2023-06-19T16:09:34 IST" duration-ms="7146">
     <groups>
     </groups>
-    <test started-at="2023-06-13T14:19:17 IST" name="SuitTest1" finished-at="2023-06-13T14:19:23 IST" duration-ms="5860">
+    <test started-at="2023-06-19T16:09:26 IST" name="SuitTest1" finished-at="2023-06-19T16:09:34 IST" duration-ms="7146">
       <class name="BaseCode.OpenApp">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-13T14:19:17 IST" name="openBrowser" finished-at="2023-06-13T14:19:19 IST" duration-ms="2204" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-19T16:09:26 IST" name="openBrowser" finished-at="2023-06-19T16:09:29 IST" duration-ms="2130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,15 +21,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-13T14:19:19 IST" name="OpenApp" finished-at="2023-06-13T14:19:22 IST" duration-ms="3162" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-19T16:09:29 IST" name="OpenApp" finished-at="2023-06-19T16:09:33 IST" duration-ms="4537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="loginApp()[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-13T14:19:22 IST" name="loginApp" finished-at="2023-06-13T14:19:23 IST" duration-ms="455" status="PASS">
+        <test-method signature="loginApp()[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-19T16:09:33 IST" name="loginApp" finished-at="2023-06-19T16:09:34 IST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-13T14:19:23 IST" name="testMethodExecutionResult" finished-at="2023-06-13T14:19:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:BaseCode.OpenApp@1d119efb]" started-at="2023-06-19T16:09:34 IST" name="testMethodExecutionResult" finished-at="2023-06-19T16:09:34 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>

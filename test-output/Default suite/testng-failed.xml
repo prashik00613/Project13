@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BaseCode.OpenApp">
+      <class name="AddCategory.testclassAdd_to_cart">
         <methods>
           <include name="openBrowser"/>
-          <include name="loginApp"/>
           <include name="testMethodExecutionResult"/>
+          <include name="add"/>
           <include name="OpenApp"/>
         </methods>
-      </class> <!-- BaseCode.OpenApp -->
+      </class> <!-- AddCategory.testclassAdd_to_cart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,3 +1,4 @@
+
 package BaseCode;
 
 import org.openqa.selenium.By;
@@ -11,11 +12,13 @@ public class OpenApp extends BaseGeneric
 		driver.findElement(By.xpath("//input[@placeholder='Enter Username/Email']")).sendKeys("admin07");
 		driver.findElement(By.xpath("//input[@placeholder='Enter Password']")).sendKeys("test1234");
 		driver.findElement(By.xpath("//button[text()='LOGIN']")).click();
-		Catgeory c= new Catgeory(driver);
-		c.clickon();
+	
 		
-			}
+			
+	Catgeory c= new Catgeory(driver);
+	c.clickon();
 		}
+}
 	
 
 

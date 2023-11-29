@@ -23,7 +23,7 @@ public class Catgeory extends BaseGeneric
 	}
 
 	public void clickon() {
-		category.click();
+		category.click(); 
 	}
 	
 	

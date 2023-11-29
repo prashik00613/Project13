@@ -2,18 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SuitTest1(failed)">
-    <parameter name="browsername" value="Firefox"/>
+    <parameter name="browsername" value="Chrome"/>
     <classes>
-      <class name="BaseCode.Catgeory">
+      <class name="AddCategory.testclassAdd_to_cart">
         <methods>
-          <include name="Category"/>
           <include name="openBrowser"/>
-          <include name="loginApp"/>
           <include name="testMethodExecutionResult"/>
-          <include name="clickon"/>
+          <include name="add"/>
           <include name="OpenApp"/>
         </methods>
-      </class> <!-- BaseCode.Catgeory -->
+      </class> <!-- AddCategory.testclassAdd_to_cart -->
     </classes>
   </test> <!-- SuitTest1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
